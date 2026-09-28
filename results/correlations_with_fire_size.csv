@@ -1,0 +1,6 @@
+variable,pearson_raw_acres,pearson_log_acres,spearman,n_fires
+temp_max_f,0.014,0.113,0.13,251880
+relative_humidity,-0.019,-0.107,-0.103,251880
+wind_speed_mph,-0.0,0.056,0.059,251880
+precip_mm,-0.002,-0.034,-0.065,251880
+precip_prev_7day_mm,-0.006,-0.045,-0.06,251880
