@@ -45,3 +45,10 @@ def set_chart_style():
 def save_figure(fig, filename):
     """Save a figure into the project's figures/ folder."""
     fig.savefig(f"../figures/{filename}")
+
+
+def format_acres(value, _position=None):
+    """Axis label formatter: 0.01, 0.1, 1, 100, 10,000 instead of 1e-02 ... 1e+04."""
+    if value >= 1:
+        return f"{value:,.0f}"
+    return f"{value:g}"
